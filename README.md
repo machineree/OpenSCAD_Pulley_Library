@@ -78,7 +78,9 @@ customstep*N*
 
 ###Examples!
 
-Output of help within OpenSCAD console:
+Single Pulley - 5L Belt, 6" Outer Diameter, 5/8" center hole
+
+This displays the simplicity of the pulley library to make pulleys quickly.
 
 ```openscad
 include <pulleys.scad>
@@ -88,6 +90,8 @@ pulley("5L", 6, 5/8);
 ![alt text](https://github.com/machineree/OpenSCAD_Pulley_Library/blob/master/pics/ex1.png?raw=true "Simple Example")
 
 ![alt text](https://github.com/machineree/OpenSCAD_Pulley_Library/blob/master/pics/ex1-1.png?raw=true "Simple Example")
+
+Output of help within OpenSCAD console:
 
 ```openscad
 include <pulleys.scad>
