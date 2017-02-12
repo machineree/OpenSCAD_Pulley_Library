@@ -1,7 +1,7 @@
 # OpenSCAD_Pulley_Library
 ### OpenSCAD library to create multiple types of pulleys from belt sizes in 3D
 
-Thingiverse Thing: [2081445](http://www.thingiverse.com/thing:2081445)
+Thingiverse Thing: [2105020](http://www.thingiverse.com/thing:2105020)
 
 *v.01 - February 12, 2017*
 
