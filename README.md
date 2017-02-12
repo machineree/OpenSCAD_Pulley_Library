@@ -43,9 +43,9 @@ customstep*n*
 Output of help within OpenSCAD console:
 
 ```openscad
-include <linkages.scad>
+include <pulleys.scad>
 
-linkagehelp();
+pulleyhelp();
 ```
 
-![alt text](https://github.com/machineree/OpenSCAD_Linkages_Library/blob/master/pics/linkagehelp.png?raw=true "linkagehelp")
+![alt text](https://github.com/machineree/OpenSCAD_Pulley_Library/blob/master/pics/pulleyhelp.png?raw=true "pulleyhelp")
