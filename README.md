@@ -6,7 +6,7 @@ Thingiverse Thing: [2081445](http://www.thingiverse.com/thing:2081445)
 *v.01 - February 12, 2017*
 
 + linkages.scad: 3D Pulleys
-+ 'step' and 'customstep' up to 6 pulleys
++ `step` and `customstep` up to 6 pulleys
 
 Add to your library folder in OpenSCAD and use the include function to begin using these modules.
 
@@ -79,6 +79,15 @@ customstep*N*
 ###Examples!
 
 Output of help within OpenSCAD console:
+
+```openscad
+include <pulleys.scad>
+
+pulley("5L", 6, 5/8);
+```
+![alt text](https://github.com/machineree/OpenSCAD_Pulley_Library/blob/master/pics/ex1.png?raw=true "Simple Example")
+
+![alt text](https://github.com/machineree/OpenSCAD_Pulley_Library/blob/master/pics/ex1-1.png?raw=true "Simple Example")
 
 ```openscad
 include <pulleys.scad>
