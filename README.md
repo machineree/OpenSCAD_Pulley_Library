@@ -78,7 +78,7 @@ customstep*N*
 
 ###Examples!
 
-Single Pulley - 5L Belt, 6" Outer Diameter, 5/8" Center Hole
+Single Pulley - 5L Belt, 6" Outer Diameter, 5/8" Center Bore
 
 This displays the simplicity of the pulley library to make pulleys quickly.
 
@@ -91,7 +91,7 @@ pulley("5L", 6, 5/8);
 
 ![alt text](https://github.com/machineree/OpenSCAD_Pulley_Library/blob/master/pics/ex1-1.png?raw=true "Simple Example")
 
-Single Pulley - 4L Belt, 4" Outer Diameter, 1/2" Center Hole, Keyway of .2", $fn=100, .218" Set Screw
+Single Pulley - 4L Belt, 4" Outer Diameter, 1/2" Center Bore, Keyway of .2", $fn=100, .218" Set Screw
 
 ```openscad
 include <pulleys.scad>
@@ -101,6 +101,21 @@ pulley("4L", 4, 1/2, key=.2,, res=100, screw=true);
 ![alt text](https://github.com/machineree/OpenSCAD_Pulley_Library/blob/master/pics/ex2.png?raw=true "Simple Example")
 
 ![alt text](https://github.com/machineree/OpenSCAD_Pulley_Library/blob/master/pics/ex2-1.png?raw=true "Simple Example")
+
+![alt text](https://github.com/machineree/OpenSCAD_Pulley_Library/blob/master/pics/ex2-2.png?raw=true "Simple Example")
+
+Single Pulley - Custom Belt(.5125" width/.475 height/34 deg. angle), 5" OUter Diameter, 5/8" Center Bore
+
+Added Animation to spin pulley to see all sides:
+
+```openscasd
+include <pulleys.scad>
+
+rotate([360*$t,360*$t,90])
+custompulley(.5125,.475, 34, 5, 5/8);
+```
+
+![alt text](https://github.com/machineree/OpenSCAD_Pulley_Library/blob/master/pics/ex3.gif?raw=true "Custom Example")
 
 Output of help within OpenSCAD console:
 
