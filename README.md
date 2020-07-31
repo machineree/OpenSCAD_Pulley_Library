@@ -66,7 +66,7 @@ Default units are inches.
   + **padding:** adds a layer on either side of the pulley dependant upon the belt width
   + **screw:** automatically places a set screw on the second pulley 
 
-###Naming Strategy:
+### Naming Strategy:
 
 pulley
 
@@ -76,7 +76,7 @@ step*N*
 
 customstep*N*
 
-###Examples!
+### Examples!
 
 Single Pulley - 5L Belt, 6" Outer Diameter, 5/8" Center Bore
 
